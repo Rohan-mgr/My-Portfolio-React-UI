@@ -1,0 +1,14 @@
+#Ellipse-logo {
+    transform-origin: center;
+    animation: flip 2.5s forwards infinite;
+    height: 30vh;
+}
+@keyframes flip {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}

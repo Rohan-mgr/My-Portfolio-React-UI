@@ -1,0 +1,23 @@
+.name__initials {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #6200EE;
+    display: grid;
+    place-items: center;
+    margin-right: 7px;
+    margin-bottom: 10px;
+}
+
+.name__initials>span {
+    display: block;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #ffffff;
+    line-height: 16.41px;
+    font-family: 'PT Mono', monospace !important;
+}
+.name__initials {
+    margin-right: 7px;
+    margin-bottom: 0;
+}

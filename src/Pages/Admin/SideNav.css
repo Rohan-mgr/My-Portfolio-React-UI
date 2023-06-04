@@ -1,0 +1,41 @@
+.elevation-3{
+    box-shadow: none !important;
+}
+.content-wrapper {
+    min-height: calc(100vh - calc(3.5rem + 1px)) !important;
+
+}
+.sidebar-dark-primary {
+    background-color: rgba(10, 25, 47, 1) !important;
+}
+.main-sidebar a img {
+    margin: 0 auto;
+    height: 120px; 
+    object-fit: contain;
+}
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active {
+    background-color: #f4f6f9 !important;
+    color: #000;
+    border-left: 6px solid #64ffda;
+    border-radius: 0 !important;
+    margin: 0;
+}
+
+.main-sidebar .sidenav__btn__wrapper {
+    width: 250px ;
+    position: fixed;
+    bottom: 1rem;
+    padding: 0 10px;
+}
+
+aside .sidebar .nav-pills .nav-link {
+    border-radius: 0 !important;
+}
+
+aside .sidebar {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+aside .brand-link {
+    border-bottom: 0 !important;
+}

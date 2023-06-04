@@ -1,0 +1,42 @@
+
+.message__card {
+    border-bottom: 1px solid #6200EE;
+    margin-top: 1rem;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.name__initials__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.name__initials__wrapper div p {
+    margin: 0;
+    padding: 0;
+}
+
+.name__initials__wrapper div p:first-child {
+    font-weight: bold;
+    font-size: .9rem;
+    color: #000;
+}
+
+.name__initials__wrapper div p:last-child {
+    margin-top: -5px;
+    font-size: .7rem;
+}
+
+.message__content p:first-child {
+    margin: 5px 0;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    word-break: break-all;
+}
+.message__content p:first-child strong a{
+    text-decoration: none;
+    padding: 0 !important;
+    display: inline-block;
+    margin-right: 5px;
+    padding: 0 !important;
+}

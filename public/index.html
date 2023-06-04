@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/plugins/fontawesome-free/css/all.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- Tempusdominus Bootstrap 4 -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+    <!-- iCheck -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+    <!-- JQVMap -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/plugins/jqvmap/jqvmap.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/dist/css/adminlte.min.css">
+    <!-- overlayScrollbars -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+    <!-- Daterange picker -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/plugins/daterangepicker/daterangepicker.css">
+    <!-- summernote -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/plugins/summernote/summernote-bs4.min.css">
+
+    <title>Rohan Rana Magar</title>
+    <style>
+      body{
+        margin: 0px; 
+        padding: 0px; 
+      }
+      #spinner {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #0a192f;
+        z-index: 9999;
+        display: grid; 
+        place-items: center;
+      }
+      #Ellipse {
+        transform-origin: center;
+        animation: flip 1.5s forwards infinite;
+        height: 30vh;
+      }
+
+      #Rohan {
+          transform-origin: center;
+          animation: flip 2s backwards infinite;
+      }
+
+      @keyframes flip {
+          from {
+              transform: rotateY(0deg);
+          }
+
+          to {
+              transform: rotateY(360deg);
+          }
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+      <div id="spinner" class="container-fluid"><svg width="78" height="78" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle id="Ellipse" cx="39" cy="39" r="36.5" stroke="#64FFDA" strokeWidth="5" />
+        <path id="Rohan"
+          d="M26.7841 56V21.0909H40.5568C43.1932 21.0909 45.4432 21.5625 47.3068 22.5057C49.1818 23.4375 50.608 24.7614 51.5852 26.4773C52.5739 28.1818 53.0682 30.1875 53.0682 32.4943C53.0682 34.8125 52.5682 36.8068 51.5682 38.4773C50.5682 40.1364 49.1193 41.4091 47.2216 42.2955C45.3352 43.1818 43.0511 43.625 40.3693 43.625H31.1477V37.6932H39.1761C40.5852 37.6932 41.7557 37.5 42.6875 37.1136C43.6193 36.7273 44.3125 36.1477 44.767 35.375C45.233 34.6023 45.4659 33.642 45.4659 32.4943C45.4659 31.3352 45.233 30.358 44.767 29.5625C44.3125 28.767 43.6136 28.1648 42.6705 27.7557C41.7386 27.3352 40.5625 27.125 39.142 27.125H34.1648V56H26.7841ZM45.6364 40.1136L54.3125 56H46.1648L37.6761 40.1136H45.6364Z"
+          fill="#64FFDA" />
+      </svg></div>
+    </div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+
+    <!-- jQuery -->
+    <script src="%PUBLIC_URL%/plugins/jquery/jquery.min.js"></script>
+    <!-- jQuery UI 1.11.4 -->
+    <script src="%PUBLIC_URL%/plugins/jquery-ui/jquery-ui.min.js"></script>
+    <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+    <script>
+      $.widget.bridge('uibutton', $.ui.button)
+    </script>
+    <!-- Bootstrap 4 -->
+    <script src="%PUBLIC_URL%/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- ChartJS -->
+    <script src="%PUBLIC_URL%/plugins/chart.js/Chart.min.js"></script>
+    <!-- Sparkline -->
+    <script src="%PUBLIC_URL%/plugins/sparklines/sparkline.js"></script>
+    <!-- JQVMap -->
+    <script src="%PUBLIC_URL%/plugins/jqvmap/jquery.vmap.min.js"></script>
+    <script src="%PUBLIC_URL%/plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+    <!-- jQuery Knob Chart -->
+    <script src="%PUBLIC_URL%/plugins/jquery-knob/jquery.knob.min.js"></script>
+    <!-- daterangepicker -->
+    <script src="%PUBLIC_URL%/plugins/moment/moment.min.js"></script>
+    <script src="%PUBLIC_URL%/plugins/daterangepicker/daterangepicker.js"></script>
+    <!-- Tempusdominus Bootstrap 4 -->
+    <script src="%PUBLIC_URL%/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+    <!-- Summernote -->
+    <script src="%PUBLIC_URL%/plugins/summernote/summernote-bs4.min.js"></script>
+    <!-- overlayScrollbars -->
+    <script src="%PUBLIC_URL%/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+    <script src="%PUBLIC_URL%/dist/js/adminlte.js"></script>
+    <!-- <script src="%PUBLIC_URL%/dist/js/pages/dashboard.js"></script> -->
+
+  </body>
+</html>

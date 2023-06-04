@@ -1,0 +1,20 @@
+.primary-btn {
+    font-family: 'PT Mono', monospace;
+    font-size: .9rem;
+    letter-spacing: 1px;
+    color: #64ffda;
+    border: 1px solid #64ffda;
+    padding: 0.75rem 1rem;
+    line-height: 1;
+    cursor: pointer;
+    border-radius: 0.38rem;
+    background: transparent;
+    width: 100%;
+}
+.primary-btn.bg {
+    background: rgba(10, 25, 47, 1);
+    color: #ccd6f6;
+}
+.primary-btn:hover {
+    background: #19273f;
+}

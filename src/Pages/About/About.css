@@ -1,0 +1,107 @@
+
+#about {
+    min-height: 100vh;
+    padding: 100px 150px 0;
+    font-family: 'PT Mono', monospace;
+    font-size: clamp(12px, 5vw, 20px);
+    color: #ccd6f6;
+}
+
+.number-heading {
+    display: flex;
+    -webkit-box-align: center;
+    align-self: center;
+    margin: 10px 0 40px;
+    width: 100%;
+    white-space: nowrap; 
+    font-size: clamp(26px, 5vw, 32px);
+    position: relative;
+}
+
+ .number-heading::after {
+    content: ""; 
+    display: block;
+    position: relative;
+    top: 16px; 
+    width: 400px;
+    height: 2px;
+    margin-left: 20px;
+    background-color: #233554;
+}
+
+span {
+    color: #64ffda;
+    font-family: 'PT Mono', monospace;
+}
+#about ul {
+    margin-top: 2rem;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 250px));
+    gap: 10px; 
+    padding: 0px;
+}
+#about ul li span svg {
+    font-size: 0.7rem;
+}
+.image__wrapper {
+    margin: 2rem 0 0; 
+    width: 300px; 
+    height: 300px;
+    background-color: #64ffda;
+    border-radius: 0.38rem;
+    position: relative;
+    z-index: 1;
+}   
+.image__wrapper img {
+    mix-blend-mode: multiply;
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+    /* vertical-align: middle; */
+    /* overflow: clip; */
+    border-radius: 0.38rem;
+    
+}
+.image__wrapper img:hover {
+    mix-blend-mode: normal;
+}
+.image__wrapper::after {
+    content: " ";
+    border-radius: 0.38rem;
+    position: absolute;
+    top: 15px; 
+    left: 15px;
+    border: 2px solid #64ffda;
+    width: inherit;
+    height: inherit;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+    z-index: -1;
+}
+.image__wrapper:hover::after {
+    top: 10px; 
+    left: 10px;
+}
+
+@media (max-width: 992px) {
+    #about {
+        padding: 100px 100px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    #about {
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    #about {
+        padding: 0 24px;
+    }
+    .image__wrapper {
+        width: 200px; 
+        height: 200px;
+    }
+}

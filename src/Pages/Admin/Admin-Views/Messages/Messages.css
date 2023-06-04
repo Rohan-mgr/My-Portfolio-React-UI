@@ -1,0 +1,25 @@
+
+.message__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.message h2 {
+    color: #000; 
+}
+
+.message h2 svg {
+    margin-top: -6px; 
+    font-size: 2rem;
+}
+
+@media (max-width: 468px) {
+    .message__header {
+        flex-direction: column;
+        text-align: left;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}

@@ -1,0 +1,29 @@
+.Preloader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #0a192f;
+    z-index: 9999;
+    display: grid; 
+    place-items: center;
+}
+#Ellipse {
+    transform-origin: center;
+    animation: flip 1.5s forwards infinite;
+    height: 30vh;
+}
+
+#Rohan {
+    transform-origin: center;
+    animation: flip 2s backwards infinite;
+}
+
+@keyframes flip {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
