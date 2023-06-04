@@ -80,7 +80,7 @@ function Work() {
                       <div className="project__image__wrapper">
                         <div>
                           <img
-                            src={`http://localhost:8000/${p?.imageUrl.replace(
+                            src={`https://my-portfolio-rest-api.vercel.app/${p?.imageUrl.replace(
                               "\\",
                               "/"
                             )}`}
