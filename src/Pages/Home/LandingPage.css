@@ -49,6 +49,9 @@
     color: #64ffda;
     font-size: clamp(14px, 5vw, 20px);
 }
+.landing-page h2 {
+    color: #ccd6f6;
+}
 .landing-page h3 {
     margin-top: 10px;
     color: #8892b0;
