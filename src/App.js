@@ -1,7 +1,7 @@
 import React, { Suspense } from "react";
 import "./App.css";
-// import "./Assets/dist/css/adminlte.min.css";
-// import "./Assets/plugins/fontawesome-free/css/all.min.css";
+import "./Assets/dist/css/adminlte.min.css";
+import "./Assets/plugins/fontawesome-free/css/all.min.css";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Routes, Route } from "react-router-dom";
