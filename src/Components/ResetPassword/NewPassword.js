@@ -44,7 +44,7 @@ function ResetPassword() {
       <Form className="col-10 col-lg-5 p-4" onSubmit={formik.handleSubmit}>
         <Form.Group className="mb-3 text-center">
           <Logo />
-          <h3>Enter Your New Password</h3>
+          <h3 style={{ color: "#64ffda" }}>Enter Your New Password</h3>
         </Form.Group>
         {status && (
           <Alert
