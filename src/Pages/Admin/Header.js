@@ -1,5 +1,7 @@
 import React from "react";
 import "./Header.css";
+import $ from "jquery";
+import "admin-lte/dist/js/adminlte.min.js";
 
 function Header({ currentUser }) {
   return (
