@@ -59,10 +59,7 @@ span {
     object-position: center;
     height: 100%;
     width: 100%;
-    /* vertical-align: middle; */
-    /* overflow: clip; */
     border-radius: 0.38rem;
-    
 }
 .image__wrapper img:hover {
     mix-blend-mode: normal;

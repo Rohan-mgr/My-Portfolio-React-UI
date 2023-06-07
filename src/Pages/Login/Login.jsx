@@ -10,6 +10,7 @@ import { handleAdminLogin } from "../../services/admin";
 import Alert from "../../Components/Alert/Alert";
 import { _setSecureLs, _getSecureLs } from "../../helper/storage";
 import MySpinner from "../../Components/Spinner/Spinner";
+import { BiArrowBack } from "react-icons/bi";
 
 function ResetPassword() {
   const navigate = useNavigate();
@@ -117,6 +118,10 @@ function ResetPassword() {
             "Submit"
           )}
         </Button>
+        <span onClick={() => navigate("/")}>
+          <BiArrowBack />
+          Back To Home
+        </span>
       </Form>
     </div>
   );

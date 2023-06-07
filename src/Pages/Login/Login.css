@@ -26,6 +26,14 @@
     color: #ccd6f6;
     text-decoration: none;
 }
+
+.admin-login form span {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    width: inherit;
+    cursor: pointer;
+}
 .admin-login form a:hover {
     color: #64ffda;
 }

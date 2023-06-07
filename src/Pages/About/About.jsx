@@ -45,13 +45,13 @@ function About() {
               <span>
                 <GoTriangleRight />
               </span>
-              React
+              React Js
             </li>
             <li>
               <span>
                 <GoTriangleRight />
               </span>
-              Bootstrap
+              Mongo DB
             </li>
             <li>
               <span>
