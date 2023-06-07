@@ -27,7 +27,7 @@
     text-decoration: none;
 }
 
-.admin-login form span {
+.admin-login form .back__btn {
     display: inline-block;
     text-align: center;
     margin-top: 10px;

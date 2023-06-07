@@ -118,7 +118,7 @@ function ResetPassword() {
             "Submit"
           )}
         </Button>
-        <span onClick={() => navigate("/")}>
+        <span className="back__btn" onClick={() => navigate("/")}>
           <BiArrowBack />
           Back To Home
         </span>
