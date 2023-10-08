@@ -106,7 +106,7 @@ function Work() {
         ) : projects?.length > 0 ? (
           projects
             ?.filter((p) => p?.feature_project === false)
-            ?.slice(0, showMore ? 3 : projects.length)
+            ?.slice(0, showMore ? (window.screen.width >= 1545 ? 4:3) : projects.length)
             .map((project, index) => (
               <SmallCard
                 key={project?._id}
