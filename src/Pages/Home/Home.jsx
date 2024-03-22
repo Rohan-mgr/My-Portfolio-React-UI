@@ -6,6 +6,7 @@ import Work from "../Work/Work";
 import Contact from "../Contact/Contact";
 import Footer from "../../Components/Footer/Footer";
 import { BiUpArrowCircle } from "react-icons/bi";
+import TsParticles from "../../Components/Particle";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -53,6 +54,7 @@ function Home() {
           <BiUpArrowCircle />
         </button>
       )}
+      <TsParticles />
     </>
   );
 }

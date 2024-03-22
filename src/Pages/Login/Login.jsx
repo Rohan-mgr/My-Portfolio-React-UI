@@ -10,6 +10,7 @@ import { handleAdminLogin } from "../../services/admin";
 import Alert from "../../Components/Alert/Alert";
 import { _setSecureLs, _getSecureLs } from "../../helper/storage";
 import MySpinner from "../../Components/Spinner/Spinner";
+import TsParticles from "../../Components/Particle";
 
 function ResetPassword() {
   const navigate = useNavigate();
@@ -118,6 +119,7 @@ function ResetPassword() {
           )}
         </Button>
       </Form>
+      <TsParticles />
     </div>
   );
 }
