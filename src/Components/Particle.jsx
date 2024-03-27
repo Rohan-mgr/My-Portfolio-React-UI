@@ -304,7 +304,7 @@ const TsParticles = () => {
           mode: "delete",
           value: 0,
         },
-        value: 130,
+        value: 40,
       },
       opacity: {
         value: {
